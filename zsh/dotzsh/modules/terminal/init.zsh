@@ -101,9 +101,6 @@ function set-title-precmd {
 
     if [[ ! -z $SSH_CONNECTION ]]; then
       SSHHOST="$HOSTNAME:"
-      if [[ "$TERM" == ((x|a|ml|dt|E)term*|(u|)rxvt*) ]]; then
-        tab_$_prompt_host
-      fi
     else
       tab_reset
     fi
@@ -147,4 +144,3 @@ tab_reset() { echo -ne "\033]6;1;bg;*;default\a" }
 [[ "$TERM_PROGRAM" != "" ]] && export LC_TERM_PROGRAM="$TERM_PROGRAM"
 [[ "$ITERM_PROFILE" != "" ]] && export LC_TERM_PROFILE="$ITERM_PROFILE"
 [[ "$ITERM_PROFILE" = "Hotkey Window" ]] && export LC_TERM_PROFILE="base16-default.dark"
-

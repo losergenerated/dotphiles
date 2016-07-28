@@ -20,6 +20,7 @@ zstyle ':dotzsh:load' zfunction 'zargs' 'zmv'
 # Set the dotzsh modules to load (browse modules).
 # The order matters.
 zstyle ':dotzsh:load' dzmodule \
+  'theme' \
   'terminal' \
   'gnu-utility' \
   'environment' \
@@ -29,7 +30,6 @@ zstyle ':dotzsh:load' dzmodule \
   'notify' \
   'utility' \
   'completion' \
-  'theme' \
   'syntax-highlighting' \
   'zshmarks' \
   'history-substring-search'
