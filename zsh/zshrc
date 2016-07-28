@@ -25,6 +25,10 @@ zstyle ':dotzsh:load' dzmodule \
   'terminal' \
   'editor' \
   'history' \
+  'git' \
+  'yum' \
+  'osx' \
+  'notify' \
   'utility' \
   'completion' \
   'theme' \
