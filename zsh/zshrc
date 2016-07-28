@@ -29,6 +29,7 @@ zstyle ':dotzsh:load' dzmodule \
   'completion' \
   'theme' \
   'syntax-highlighting' \
+  'zshmarks' \
   'history-substring-search'
 
 ### Global settings
