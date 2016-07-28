@@ -20,14 +20,12 @@ zstyle ':dotzsh:load' zfunction 'zargs' 'zmv'
 # Set the dotzsh modules to load (browse modules).
 # The order matters.
 zstyle ':dotzsh:load' dzmodule \
+  'terminal' \
   'gnu-utility' \
   'environment' \
-  'terminal' \
   'editor' \
   'history' \
   'git' \
-  'yum' \
-  'osx' \
   'notify' \
   'utility' \
   'completion' \
@@ -118,4 +116,3 @@ zstyle ':dotzsh:module:theme' theme 'sorin'
 source "$DOTZSH/init.zsh"
 
 ### Customize to your needs...
-

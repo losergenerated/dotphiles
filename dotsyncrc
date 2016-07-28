@@ -80,6 +80,6 @@ zsh/zshrc
 ## hostname                     type=masterhost, ANY or NONE    files=dotfile:tolink,another:tolink
 [hosts]
 KJ-MacBook-Pro.local            git=ANY
-devbox.lo                       rsync=KJ-MacBook-Pro.local
+devbox.lo                       git=ANY
 [endhosts]
 
